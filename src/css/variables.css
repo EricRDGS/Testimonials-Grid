@@ -1,0 +1,12 @@
+:root{
+    --primary-moderate: hsl(263, 55%, 52%);
+    --primary-very-dark-grayish: hsl(217, 19%, 35%);
+    --primary-very-dark-blackish: hsl(219, 29%, 14%);
+
+    --neutral-light: hsl(0, 0%, 81%);
+    --neutral-light-grayish: hsl(210, 46%, 95%);
+}
+
+
+/* 1. "Verified Graduate" tem a mesma cor do nome da pessoa com 50% de opacidade
+2. Os parágrafos de revisão dentro das citações também têm a mesma cor, mas com 70% de opacidade */

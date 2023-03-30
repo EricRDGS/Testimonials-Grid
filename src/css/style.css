@@ -1,0 +1,113 @@
+html{
+    font-size: 62.7%;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    max-width: 1440px;
+    background-color: var(--neutral-light-grayish);
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: repeat(2, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 3rem;
+}
+
+.testimonials .testimonial .profile{
+    display: flex;
+    align-items: center;
+    color: var(--neutral-light);
+    margin: 1rem 1.5rem .5rem;
+}
+
+.testimonials .testimonial .profile img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    border: 1px solid var(--neutral-light);
+    margin-right: .5rem;
+}
+
+.testimonials .testimonial .profile .name-verified .verified{
+    font-size: 13px;
+    opacity: 50%;
+}
+
+.testimonials .testimonial .texts{
+    margin: 0 1.5rem 1rem;
+}
+
+.testimonials .testimonial .texts p:first-child{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+.testimonials .testimonial .texts p:last-child{
+    color: var(--neutral-light);
+    opacity: 50%;
+}
+
+.testimonials .testimonial-daniel-clifford{
+    background: url(../images/bg-pattern-quotation.svg) no-repeat;
+    background-position: 80% 0%;
+    grid-area: 1 / 1 / 1 / 3;
+    border-radius: 4px;
+    background-color: var(--primary-moderate);
+}
+
+.testimonials .testimonial-jonathan-walters{
+    grid-area: 1 / 3 / 1 / 4;
+    border-radius: 4px;
+    background-color: var(--primary-very-dark-grayish);
+}
+
+.testimonials .testimonial-kira-whittle{
+    grid-area: 1 / 4 / span 2 / 4;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.testimonials .testimonial-kira-whittle .profile .name-verified{
+    color: var(--primary-very-dark-blackish);
+}
+
+.testimonials .testimonial-kira-whittle .texts p:first-child{
+    color: var(--primary-very-dark-blackish);
+}
+
+.testimonials .testimonial-kira-whittle .texts p:last-child{
+    color: var(--primary-very-dark-blackish);
+}
+
+.testimonials .testimonial-jeanette-harmon{
+    grid-area: 2 / 1 / 2 / 2;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.testimonials .testimonial-jeanette-harmon .profile .name-verified{
+    color: var(--primary-very-dark-blackish);
+}
+
+.testimonials .testimonial-jeanette-harmon .texts p:first-child{
+    color: var(--primary-very-dark-blackish);
+}
+
+.testimonials .testimonial-jeanette-harmon .texts p:last-child{
+    color: var(--primary-very-dark-blackish);
+}
+
+.testimonials .testimonial-patrick-abrams{
+    grid-area: 2 / 2 / 2 / 4;
+    border-radius: 4px;
+    background-color: var(--primary-very-dark-blackish);
+}

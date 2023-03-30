@@ -1,0 +1,49 @@
+@media(max-width: 860px){
+    body{
+        font-size: 12px;
+    }
+
+    .testimonials .testimonial .profile .name-verified .name{
+        font-size: 15px;
+    }
+
+    .testimonials .testimonial .profile .name-verified .verified{
+        font-size: 10px;
+    }
+
+    .testimonials .testimonial .texts p:first-child{
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: .5rem;
+    }
+
+    .testimonials .testimonial-kira-whittle .texts p:first-child{
+        color: var(--primary-very-dark-blackish);
+    }
+    
+    .testimonials .testimonial-kira-whittle .texts p:last-child{
+        color: var(--primary-very-dark-blackish);
+    }
+
+    .testimonials .testimonial-jeanette-harmon .texts p:first-child{
+        color: var(--primary-very-dark-blackish);
+    }
+    
+    .testimonials .testimonial-jeanette-harmon .texts p:last-child{
+        color: var(--primary-very-dark-blackish);
+    }
+}
+
+@media(max-width: 740px){
+    body{
+        height: auto;
+        width: auto;
+    }
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
